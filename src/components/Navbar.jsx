@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/tailwind.png'
@@ -11,7 +11,7 @@ const Navbar = () => {
     return(
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-red-500 via-orange-500 via-red-500 to-blue-500 text-[#FF8800]">
             <div>
-                <img src={Logo} alt="Logo Image" style={{width: '50px'}} />
+                <img href='/' src={Logo} alt="Logo" style={{width: '50px'}} />
             </div>
 
             {/*menu*/}

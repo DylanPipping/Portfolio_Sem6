@@ -29,7 +29,7 @@ const About = () => {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-2xl py-1 font-bold inline border-b-4 border-[#ff8800]'>Experience</p>
-                    <p className='py-4'>// These are the technologies I've worked with.</p>
+                    <p className='py-4'>These are the technologies I've worked with.</p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -68,7 +68,7 @@ const About = () => {
             <form method='POST' action="https://getform.io/f/b5f284fe-e6dd-4e7a-9251-88428248803b" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-2xl font-bold inline border-b-4 border-[#ff8800] text-[#ff8800]'>Contact</p>
-                    <p className='text-[#ff8800] py-4'>// Submit the form below?</p>
+                    <p className='text-[#ff8800] py-4'>Submit the form below?</p>
                 </div>
                 <input className='bg-[#ff7272]' type="text" placeholder='Name' name='name' />
                 <input className='my-4 p-2 bg-[#ff7272]' type="email" placeholder='Email' name='email' />
